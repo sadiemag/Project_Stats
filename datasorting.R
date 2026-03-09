@@ -12,8 +12,6 @@ wide_statsdata <- statsdata %>%
     values_fn = list(`2016 [YR2016]` = mean)
   ) %>%
   filter(!is.na(`GDP per capita (current US$)`) & !is.na(`Life expectancy at birth, total (years)`))
-
-summary(wide_statsdata)
   
 
 
